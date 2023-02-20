@@ -1,0 +1,23 @@
+# Kalid Ahmed
+# This program will randomly choose a film series based on your mood 
+from random import choice
+anime= [['naruto', 'hype', 'long series',"GOAT status",'ninjas'],
+['One piece', 'adventures','super long series','GOAT status','pirates '],
+['AOT','Adventure fiction','short series ','GOAT status',"Titans"],
+['Demon slay','Dark fantasy','short','hype', 'swordsman','series ']]
+
+#please input your mood
+win ='yes'
+lose = 'no'
+random = input('Do you want us to choose random anime for you? yes or no: ')
+while random == win:
+    if random == win:
+        print(choice(anime))
+        break
+        
+    else:
+        continue
+        
+
+
+mood =input("What mood are you in? chill, tired, shounen, adventure, Comedy, Horror, Mystery, Drama, Science Fiction ")
