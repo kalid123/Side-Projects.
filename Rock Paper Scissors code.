@@ -1,0 +1,30 @@
+# Kalid Ahmed
+# Rock paper scissors game
+
+import random
+print("Hello!, Welcome to my R.P.S game.")
+person_choice = input("Enter your choice: rock, paper, scissors: ")
+choice_list = ["rock", "paper", "scissors"]
+computer_choice = random.choice(choice_list)
+
+print(f"You chose: {person_choice}. The computer chose: {computer_choice}.")
+
+if person_choice == computer_choice:
+    print("You both have the same choice. it's a tie!")
+elif person_choice == "rock":
+    if computer_choice == "scissors":
+        print("Rock beats scissors, You Win!")
+    else:
+        print("Paper beats rock, You Lose!")
+elif person_choice == "paper":
+    if computer_choice == "rock":
+        print("Paper beats rock, You Win!")
+    else:
+        print("Scissors beats paper, You Lose!")
+elif person_choice == "scissors":
+        if computer_choice == "paper":
+            print("Scissors beats paper, You Win!")
+        else:
+            print("Rock beats scissors, You Lose!")
+
+
