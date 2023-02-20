@@ -1,0 +1,11 @@
+# Kalid Ahmed
+#Both the month and the date mutiplied should be give a total input of year
+month = int(input("Enter the month in numeric form: "))
+date = int(input("Enter the date: "))
+year = int(input("Enter a two digit year: "))
+
+if month * date == year:
+    print("The date is magic!")
+    
+else: 
+    print("The date is not magic!")
