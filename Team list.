@@ -1,0 +1,25 @@
+#kalid AHmed
+# This program allows the person to remove a team from the list
+# Then add their new team.
+
+def main(valueError=None):
+    teams = ['cavs', 'lakers', 'mil', 'Griz']
+    print("Here are the NBA teams")
+    print(teams)
+
+    team1= input("Which team do you want to switch? ")
+
+    try:
+        team_index= teams.index(team1)
+
+        new_team = input("Which team do you want to add? ")
+        teams[team_index]= new_team
+
+        print("Here is your new updated list team.")
+        print(teams)
+    except valueError:
+        print("That team wasn't found on the list! Please check your input again.")
+
+main()
+
+
