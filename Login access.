@@ -1,0 +1,12 @@
+# Kalid Ahmed
+# This program will tell you ifyou have the right login information.
+
+username = "kalid123"
+password = "ahmed1234"
+print("Welcome back, please enter your info!")
+user = input("what is your user name: ")
+passe = input("what is your password: ")
+if username == user and password == passe:
+ print("Access Granted")
+else:
+  print("Access Denied")
