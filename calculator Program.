@@ -1,18 +1,18 @@
 # Kalid Ahmed
 # Calculator project
-# define function for addition operation
+#function for addition operation
 def add(x, y):
     return x + y
 
-# define function for subtraction operation
+#function for subtraction operation
 def subtract(x, y):
     return x - y
 
-# define function for multiplication operation
+#function for multiplication operation
 def multiply(x, y):
     return x * y
 
-# define function for division operation
+#function for division operation
 def divide(x, y):
     return x / y
 
